@@ -1,0 +1,17 @@
+//code for ASP.NET Core
+Public class ValuesController : Controller {
+	
+	//get api/values
+	[HttpGet]
+	public IEnumerable <string> Get(){
+		return new string[] {"value1", "value2"};
+	}
+}
+
+
+-----------------------
+5:48 PM 3/21/2019
+
+Asp.net 5
+github:		https://github.com/aspnet/home
+
